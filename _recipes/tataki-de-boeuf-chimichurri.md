@@ -1,9 +1,14 @@
 ---
-title: "Tataki<br>de bœuf,<br>chimichurri"
+title: |-2
+  Tataki
+  de bœuf,
+  chimichurri
 slug: tataki-de-boeuf-chimichurri
 
 kicker: "Recette de saison &bull; Les Roses"
-subtitle: "Asperges et rhubarbe grillées,<br>sauce dashi teriyaki, éclats de noisettes"
+subtitle: |-2
+  Asperges et rhubarbe grillées,
+  sauce dashi teriyaki, éclats de noisettes
 
 serie:
   name: "Recettes de chefs"

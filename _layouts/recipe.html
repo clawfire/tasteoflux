@@ -18,9 +18,9 @@ layout: embed
       {% if page.kicker %}
       <div class="pj-kicker">{{ page.kicker }}</div>
       {% endif %}
-      <h1 class="pj-titre">{{ page.title }}</h1>
+      <h1 class="pj-titre">{{ page.title | newline_to_br }}</h1>
       {% if page.subtitle %}
-      <p class="pj-sous-titre">{{ page.subtitle }}</p>
+      <p class="pj-sous-titre">{{ page.subtitle | newline_to_br }}</p>
       {% endif %}
       <div class="pj-meta">
         {% if page.time %}
@@ -80,7 +80,7 @@ layout: embed
   <!-- PHOTO HERO -->
   {% if page.image %}
   <div class="pj-photo">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}{% if page.chef %} — {{ page.chef.name }}, {{ page.chef.restaurant }}{% endif %}">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title | strip_newlines }}{% if page.chef %} — {{ page.chef.name }}, {{ page.chef.restaurant }}{% endif %}">
     {% if page.image_credit %}
     <div class="pj-photo-legende">{{ page.image_credit }}</div>
     {% endif %}
