@@ -22,10 +22,10 @@ difficulty: 2
 chef:
   name: "François Jagut"
   restaurant: "Restaurant Les Roses, Luxembourg"
-  photo: ""
+  photo: /assets/images/recipes/tataki-de-boeuf-chimichurri/chef.jpg
   bio: "François Jagut aime bousculer les frontières entre les cuisines. Ce tataki de bœuf en est l’exemple parfait : une technique japonaise, une sauce chimichurri d’Amérique du Sud, des asperges et de la rhubarbe de saison. Simple, généreux, et plein de caractère — comme lui."
 
-image: ""
+image: /assets/images/recipes/tataki-de-boeuf-chimichurri/hero.jpg
 image_credit: "© Les Roses, Luxembourg — Photo : [crédit photographe]"
 
 ingredients:
