@@ -3,6 +3,9 @@ backend:
   repo: clawfire/tasteoflux
   branch: main
 
+media_folder: "assets/images"      # dans ton repo
+public_folder: "/assets/images"    # URL publique
+
 collections:
   - name: recipes
     label: Recettes
