@@ -9,7 +9,7 @@ plugins:
 collections:
   recipes:
     output: true
-    permalink: /recettes/:slug/
+    permalink: /recettes/:name/
 
 defaults:
   - scope:
