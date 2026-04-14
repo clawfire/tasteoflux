@@ -1,0 +1,232 @@
+backend:
+  name: github
+  repo: clawfire/tasteoflux
+  branch: main
+
+media_folder: assets/images/recipes
+public_folder: /assets/images/recipes
+
+collections:
+  - name: recipes
+    label: Recettes
+    folder: _recipes
+    create: true
+    slug: "{{slug}}"
+    fields:
+      # --- Header ---
+      - name: title
+        label: Titre
+        widget: text
+        hint: "Chaque ligne sera affichée sur une ligne séparée"
+
+      - name: slug
+        label: Slug URL
+        widget: string
+        hint: "ex: tataki-de-boeuf-chimichurri"
+
+      - name: kicker
+        label: Kicker
+        widget: string
+        required: false
+        hint: "Texte au-dessus du titre (ex: Recette de saison &bull; Les Roses)"
+
+      - name: subtitle
+        label: Sous-titre
+        widget: text
+        required: false
+        hint: "Chaque ligne sera affichée sur une ligne séparée"
+
+      # --- Série ---
+      - name: serie
+        label: Série
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: name
+            label: Nom de la série
+            widget: string
+          - name: episode
+            label: Épisode
+            widget: string
+
+      # --- Méta ---
+      - name: time
+        label: Temps
+        widget: string
+        required: false
+        hint: "ex: 40 min"
+
+      - name: servings
+        label: Personnes
+        widget: number
+        required: false
+        value_type: int
+
+      - name: season
+        label: Saison
+        widget: string
+        required: false
+
+      - name: difficulty
+        label: Niveau de difficulté
+        widget: number
+        required: false
+        value_type: int
+        min: 1
+        max: 5
+        hint: "De 1 (facile) à 5 (expert)"
+
+      # --- Chef ---
+      - name: chef
+        label: Chef
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: name
+            label: Nom
+            widget: string
+          - name: restaurant
+            label: Restaurant
+            widget: string
+          - name: photo
+            label: Photo du chef
+            widget: image
+            required: false
+          - name: bio
+            label: Biographie
+            widget: text
+            required: false
+
+      # --- Photo ---
+      - name: image
+        label: Photo principale
+        widget: image
+        required: false
+
+      - name: image_credit
+        label: Crédit photo
+        widget: string
+        required: false
+
+      # --- Ingrédients ---
+      - name: ingredients
+        label: Ingrédients
+        widget: list
+        fields:
+          - name: group
+            label: Groupe
+            widget: string
+            hint: "ex: La viande, Les légumes, Sauce chimichurri"
+          - name: items
+            label: Ingrédients
+            widget: list
+            fields:
+              - name: qty
+                label: Quantité
+                widget: string
+                hint: "ex: 1 kg, q.s., 2"
+              - name: name
+                label: Nom
+                widget: string
+              - name: note
+                label: Note
+                widget: string
+                required: false
+                hint: "ex: zeste + jus"
+
+      # --- Étapes ---
+      - name: steps
+        label: Préparation
+        widget: list
+        fields:
+          - name: title
+            label: Titre de l'étape
+            widget: string
+            hint: "ex: Les légumes."
+          - name: body
+            label: Instructions
+            widget: text
+
+      # --- Citation ---
+      - name: quote
+        label: Citation du chef
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: text
+            label: Citation
+            widget: text
+          - name: author
+            label: Auteur
+            widget: string
+
+      # --- Tips ---
+      - name: tips
+        label: Tips du chef
+        widget: list
+        required: false
+        fields:
+          - name: title
+            label: Titre
+            widget: string
+          - name: body
+            label: Contenu
+            widget: text
+
+      # --- Accord vins ---
+      - name: wine
+        label: Accord mets & vins
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: label
+            label: Intitulé
+            widget: string
+            hint: "ex: Accord mets & vins — par Guillaume, sommelier aux Roses"
+          - name: name
+            label: Nom du vin
+            widget: string
+          - name: description
+            label: Description
+            widget: text
+
+      # --- Navigation ---
+      - name: nav
+        label: Navigation
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - name: prev_label
+            label: Label précédent
+            widget: string
+            required: false
+            default: "Série"
+          - name: prev_text
+            label: Texte précédent
+            widget: string
+            required: false
+          - name: next_label
+            label: Label suivant
+            widget: string
+            required: false
+            default: "Prochain chef"
+          - name: next_text
+            label: Texte suivant
+            widget: string
+            required: false
+            default: "À venir"
+          - name: current
+            label: Position actuelle
+            widget: number
+            required: false
+            value_type: int
+          - name: total
+            label: Total dans la série
+            widget: number
+            required: false
+            value_type: int
