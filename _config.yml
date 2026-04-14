@@ -3,6 +3,9 @@ description: Recettes de chefs luxembourgeois
 url: ""
 baseurl: ""
 
+plugins:
+  - jekyll-seo-tag
+
 collections:
   recipes:
     output: true

@@ -82,7 +82,7 @@ layout: embed
   <div class="pj-photo">
     <img src="{{ page.image | relative_url }}" alt="{{ page.title | strip_newlines }}{% if page.chef %} — {{ page.chef.name }}, {{ page.chef.restaurant }}{% endif %}">
     {% if page.image_credit %}
-    <div class="pj-photo-legende">{{ page.image_credit }}</div>
+    <div class="pj-photo-legende">{{ page.image_credit | escape }}</div>
     {% endif %}
   </div>
   {% endif %}
