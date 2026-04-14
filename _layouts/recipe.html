@@ -45,9 +45,8 @@ layout: embed
         <div class="pj-meta-item">
           <span class="pj-meta-label">Niveau</span>
           <span class="pj-meta-val">
-            {% assign filled = page.difficulty %}
-            {% assign empty = 5 | minus: filled %}
-            <span style="color:#1a1a1a">{% for i in (1..filled) %}&#9679;{% endfor %}</span><span style="color:#ddd">{% for i in (1..empty) %}&#9679;{% endfor %}</span>
+            {% assign dots = "1 2 3 4 5" | split: " " %}
+            {% for d in dots %}{%- if forloop.index <= page.difficulty -%}<span style="color:#1a1a1a">&#9679;</span>{%- else -%}<span style="color:#ddd">&#9679;</span>{%- endif -%}{% endfor %}
           </span>
         </div>
         {% endif %}
@@ -183,8 +182,10 @@ layout: embed
 
     {% if page.nav.total %}
     <div class="pj-dots">
-      {% for i in (1..page.nav.total) %}
-      <div class="pj-dot{% if i == page.nav.current %} actif{% endif %}"></div>
+      {% assign nav_slots = "1 2 3 4 5 6 7 8 9 10" | split: " " %}
+      {% for slot in nav_slots %}
+        {% if forloop.index > page.nav.total %}{% break %}{% endif %}
+        <div class="pj-dot{% if forloop.index == page.nav.current %} actif{% endif %}"></div>
       {% endfor %}
     </div>
     {% endif %}
