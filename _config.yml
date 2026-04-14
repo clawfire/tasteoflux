@@ -1,0 +1,25 @@
+title: Taste of Lux
+description: Recettes de chefs luxembourgeois
+url: ""
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  recipes:
+    output: true
+    permalink: /recettes/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

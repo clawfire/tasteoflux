@@ -1,0 +1,202 @@
+---
+layout: embed
+---
+
+<div class="pj-recette">
+
+  <!-- BADGE SÉRIE -->
+  {% if page.serie %}
+  <div class="pj-serie">
+    <span class="pj-serie-tag">{{ page.serie.name }}</span>
+    <span class="pj-serie-num">{{ page.serie.episode }}</span>
+  </div>
+  {% endif %}
+
+  <!-- EN-TÊTE -->
+  <div class="pj-header">
+    <div class="pj-header-gauche">
+      {% if page.kicker %}
+      <div class="pj-kicker">{{ page.kicker }}</div>
+      {% endif %}
+      <h1 class="pj-titre">{{ page.title | newline_to_br }}</h1>
+      {% if page.subtitle %}
+      <p class="pj-sous-titre">{{ page.subtitle | newline_to_br }}</p>
+      {% endif %}
+      <div class="pj-meta">
+        {% if page.time %}
+        <div class="pj-meta-item">
+          <span class="pj-meta-label">Temps</span>
+          <span class="pj-meta-val">{{ page.time }}</span>
+        </div>
+        {% endif %}
+        {% if page.servings %}
+        <div class="pj-meta-item">
+          <span class="pj-meta-label">Personnes</span>
+          <span class="pj-meta-val">{{ page.servings }}</span>
+        </div>
+        {% endif %}
+        {% if page.season %}
+        <div class="pj-meta-item">
+          <span class="pj-meta-label">Saison</span>
+          <span class="pj-meta-val">{{ page.season }}</span>
+        </div>
+        {% endif %}
+        {% if page.difficulty %}
+        <div class="pj-meta-item">
+          <span class="pj-meta-label">Niveau</span>
+          <span class="pj-meta-val">
+            {% assign filled = page.difficulty %}
+            {% assign empty = 5 | minus: filled %}
+            <span style="color:#1a1a1a">{% for i in (1..filled) %}&#9679;{% endfor %}</span><span style="color:#ddd">{% for i in (1..empty) %}&#9679;{% endfor %}</span>
+          </span>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="pj-header-droite">
+      {% if page.chef %}
+      <div class="pj-chef-carte">
+        <div class="pj-chef-avatar">
+          {% if page.chef.photo %}
+          <img src="{{ page.chef.photo | relative_url }}" alt="{{ page.chef.name }}">
+          {% else %}
+          &#x1F468;&#x200D;&#x1F373;
+          {% endif %}
+        </div>
+        <div>
+          <div class="pj-chef-tag">Chef</div>
+          <div class="pj-chef-nom">{{ page.chef.name }}</div>
+          <div class="pj-chef-resto">{{ page.chef.restaurant }}</div>
+        </div>
+      </div>
+      {% if page.chef.bio %}
+      <p class="pj-bio">{{ page.chef.bio }}</p>
+      {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- PHOTO HERO -->
+  {% if page.image %}
+  <div class="pj-photo">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title | strip_newlines }}{% if page.chef %} — {{ page.chef.name }}, {{ page.chef.restaurant }}{% endif %}">
+    {% if page.image_credit %}
+    <div class="pj-photo-legende">{{ page.image_credit | escape }}</div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <!-- INGRÉDIENTS + ÉTAPES -->
+  <div class="pj-corps">
+
+    <!-- INGRÉDIENTS -->
+    <div>
+      <div class="pj-section-titre">Ingrédients</div>
+
+      {% for group in page.ingredients %}
+      <div class="pj-ing-groupe">
+        <div class="pj-ing-groupe-titre">{{ group.group }}</div>
+        {% for item in group.items %}
+        <div class="pj-ing-ligne">
+          <span class="pj-ing-qte">{{ item.qty }}</span>
+          <span class="pj-ing-nom">{{ item.name }}</span>
+          {% if item.note %}
+          <span class="pj-ing-note">{{ item.note }}</span>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="pj-separateur"></div>
+
+    <!-- ÉTAPES -->
+    <div>
+      <div class="pj-section-titre">Préparation</div>
+
+      {% for step in page.steps %}
+      <div class="pj-etape">
+        <div class="pj-etape-num">{{ forloop.index }}</div>
+        <div class="pj-etape-texte"><strong>{{ step.title }}</strong> {{ step.body }}</div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  <!-- CITATION DU CHEF -->
+  {% if page.quote %}
+  <div class="pj-citation">
+    <div class="pj-guillemet">"</div>
+    <div>
+      <div class="pj-citation-texte">{{ page.quote.text }}</div>
+      <div class="pj-citation-auteur">— {{ page.quote.author }}</div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- TIPS DU CHEF -->
+  {% if page.tips %}
+  <div class="pj-tips">
+    <div class="pj-tips-header">
+      <div class="pj-tips-ligne"></div>
+      <div class="pj-tips-titre">Les tips du <em>chef</em></div>
+      <div class="pj-tips-ligne"></div>
+    </div>
+
+    <div class="pj-tips-grille">
+      {% for tip in page.tips %}
+      <div class="pj-tip">
+        <div class="pj-tip-num">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</div>
+        <div class="pj-tip-label">{{ tip.title }}</div>
+        <div class="pj-tip-texte">{{ tip.body }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- ACCORD VINS -->
+  {% if page.wine %}
+  <div class="pj-accord">
+    <div class="pj-accord-icone">&#127863;</div>
+    <div>
+      <div class="pj-accord-label">{{ page.wine.label }}</div>
+      <div class="pj-accord-vin">{{ page.wine.name }}</div>
+      <div class="pj-accord-desc">{{ page.wine.description }}</div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- NAVIGATION -->
+  {% if page.nav %}
+  <div class="pj-nav">
+    <div class="pj-nav-lien">
+      <span class="pj-nav-fleche">&larr;</span>
+      <div>
+        <div class="pj-nav-label">{{ page.nav.prev_label | default: "Série" }}</div>
+        <div>{{ page.nav.prev_text | default: page.serie.name }}</div>
+      </div>
+    </div>
+
+    {% if page.nav.total %}
+    <div class="pj-dots">
+      {% for i in (1..page.nav.total) %}
+      <div class="pj-dot{% if i == page.nav.current %} actif{% endif %}"></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="pj-nav-lien">
+      <div style="text-align:right">
+        <div class="pj-nav-label">{{ page.nav.next_label | default: "Prochain chef" }}</div>
+        <div>{{ page.nav.next_text | default: "À venir" }}</div>
+      </div>
+      <span class="pj-nav-fleche">&rarr;</span>
+    </div>
+  </div>
+  {% endif %}
+
+</div>
