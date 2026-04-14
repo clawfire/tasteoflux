@@ -1,7 +1,7 @@
 title: Taste of Lux
 description: Recettes de chefs luxembourgeois
-url: ""
-baseurl: ""
+url: "https://clawfire.github.io"
+baseurl: "/tasteoflux"
 
 plugins:
   - jekyll-seo-tag
