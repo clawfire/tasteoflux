@@ -1,0 +1,18 @@
+---
+layout: embed
+title: Taste of Lux — Recettes
+---
+
+<div style="font-family: 'DM Sans', sans-serif; max-width: 860px; margin: 0 auto; padding: 40px 16px;">
+  <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 32px; margin-bottom: 24px;">Recettes</h1>
+  <ul style="list-style: none; padding: 0;">
+    {% for recipe in site.recipes %}
+    <li style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e0e0e0;">
+      <a href="{{ recipe.url | relative_url }}" style="text-decoration: none; color: #1a1a1a;">
+        <strong>{{ recipe.title | strip_html }}</strong>
+        {% if recipe.chef %}<br><span style="font-size: 13px; color: #888;">{{ recipe.chef.name }} — {{ recipe.chef.restaurant }}</span>{% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
