@@ -16,7 +16,6 @@ collections:
     label: Recettes
     folder: _recipes
     create: true
-    identifier_field: slug
     slug: "{{slug}}"
     media_folder: "../assets/images/recipes/{{slug}}"
     public_folder: "/assets/images/recipes/{{slug}}"
@@ -26,14 +25,6 @@ collections:
         label: Titre
         widget: text
         hint: "Chaque ligne sera affichée sur une ligne séparée"
-
-      - name: slug
-        label: Slug URL
-        widget: string
-        pattern:
-          - "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-          - "Le slug ne doit contenir que des lettres minuscules, chiffres et tirets"
-        hint: "ex: tataki-de-boeuf-chimichurri (minuscules, chiffres et tirets uniquement)"
 
       - name: kicker
         label: Kicker
