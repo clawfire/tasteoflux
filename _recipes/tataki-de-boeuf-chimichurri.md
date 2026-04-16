@@ -3,6 +3,7 @@ title: |-2
   Tataki
   de bœuf,
   chimichurri
+slug: tataki-de-boeuf-chimichurri
 
 kicker: "Recette de saison &bull; Les Roses"
 subtitle: |-2
