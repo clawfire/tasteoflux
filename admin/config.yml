@@ -1,10 +1,15 @@
+locale: fr
+
 backend:
   name: github
-  repo: clawfire/tasteoflux
+  repo: paperjam-redaction/tasteoflux
   branch: main
 
-media_folder: "assets/images"      # dans ton repo
-public_folder: "/assets/images"    # URL publique
+site_url: https://paperjam-redaction.github.io/tasteoflux
+display_url: https://paperjam-redaction.github.io/tasteoflux
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
   - name: recipes
@@ -25,7 +30,10 @@ collections:
       - name: slug
         label: Slug URL
         widget: string
-        hint: "ex: tataki-de-boeuf-chimichurri"
+        pattern:
+          - "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          - "Le slug ne doit contenir que des lettres minuscules, chiffres et tirets"
+        hint: "Identifiant URL de la recette (ex: tataki-de-boeuf-chimichurri)"
 
       - name: kicker
         label: Kicker
@@ -70,17 +78,24 @@ collections:
 
       - name: season
         label: Saison
-        widget: string
+        widget: select
         required: false
+        options:
+          - "Printemps"
+          - "Été"
+          - "Automne"
+          - "Hiver"
 
       - name: difficulty
         label: Niveau de difficulté
-        widget: number
+        widget: select
         required: false
-        value_type: int
-        min: 1
-        max: 5
-        hint: "De 1 (facile) à 5 (expert)"
+        options:
+          - { label: "1 — Facile", value: "1" }
+          - { label: "2 — Simple", value: "2" }
+          - { label: "3 — Intermédiaire", value: "3" }
+          - { label: "4 — Avancé", value: "4" }
+          - { label: "5 — Expert", value: "5" }
 
       # --- Chef ---
       - name: chef

@@ -46,7 +46,8 @@ layout: embed
           <span class="pj-meta-label">Niveau</span>
           <span class="pj-meta-val">
             {% assign dots = "1 2 3 4 5" | split: " " %}
-            {% for d in dots %}{%- if forloop.index <= page.difficulty -%}<span style="color:#1a1a1a">&#9679;</span>{%- else -%}<span style="color:#ddd">&#9679;</span>{%- endif -%}{% endfor %}
+            {% assign diff = page.difficulty | plus: 0 %}
+            {% for d in dots %}{%- if forloop.index <= diff -%}<span style="color:#1a1a1a">&#9679;</span>{%- else -%}<span style="color:#ddd">&#9679;</span>{%- endif -%}{% endfor %}
           </span>
         </div>
         {% endif %}
