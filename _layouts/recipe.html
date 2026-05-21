@@ -196,4 +196,26 @@ layout: embed
   </div>
   {% endif %}
 
+  <!-- GÉNÉRATEUR D'EMBED -->
+  <div class="pj-embed-tool" data-recipe-title="{{ page.title | strip_newlines | escape }}">
+    <button type="button" class="pj-embed-fab" aria-expanded="false" aria-controls="pj-embed-panel">
+      <span class="pj-embed-fab-icone" aria-hidden="true">&lt;/&gt;</span>
+      <span>Intégrer</span>
+    </button>
+    <div class="pj-embed-panel" id="pj-embed-panel" role="dialog" aria-modal="false" aria-labelledby="pj-embed-titre" hidden>
+      <div class="pj-embed-panel-header">
+        <strong id="pj-embed-titre">Intégrer cette recette</strong>
+        <button type="button" class="pj-embed-close" aria-label="Fermer">&times;</button>
+      </div>
+      <div class="pj-embed-tabs" role="tablist">
+        <button type="button" class="pj-embed-tab actif" data-tab="simple" role="tab" aria-selected="true">Simple</button>
+        <button type="button" class="pj-embed-tab" data-tab="responsive" role="tab" aria-selected="false">Responsive</button>
+      </div>
+      <p class="pj-embed-tab-help" data-help="simple">Iframe à hauteur fixe (2400 px). Aucun script à coller. Ajustez <code>height</code> si besoin.</p>
+      <p class="pj-embed-tab-help" data-help="responsive" hidden>L'iframe s'ajuste automatiquement à la hauteur de la recette. Collez aussi le <code>&lt;script&gt;</code>.</p>
+      <textarea class="pj-embed-code" readonly aria-label="Code à copier"></textarea>
+      <button type="button" class="pj-embed-copy">Copier</button>
+    </div>
+  </div>
+
 </div>
