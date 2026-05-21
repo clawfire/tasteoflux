@@ -13,7 +13,14 @@
 
     var url = window.location.origin + window.location.pathname;
     var origin = window.location.origin;
-    var title = (tool.getAttribute('data-recipe-title') || document.title || '').replace(/"/g, '&quot;');
+    function escapeAttr(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+    var title = escapeAttr(tool.getAttribute('data-recipe-title') || document.title || '');
 
     var snippets = {
       simple:
@@ -87,13 +94,15 @@
       })(tabs[k]);
     }
 
+    var originalCopyLabel = copyBtn.textContent;
+    var resetTimer = null;
     copyBtn.addEventListener('click', function () {
       var done = function () {
-        var original = copyBtn.textContent;
         copyBtn.textContent = 'Copié !';
         copyBtn.classList.add('ok');
-        setTimeout(function () {
-          copyBtn.textContent = original;
+        if (resetTimer) clearTimeout(resetTimer);
+        resetTimer = setTimeout(function () {
+          copyBtn.textContent = originalCopyLabel;
           copyBtn.classList.remove('ok');
         }, 1500);
       };
