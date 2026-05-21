@@ -17,7 +17,7 @@ chef:
   name: François Jagut
   restaurant: Restaurant Les Roses, Luxembourg
   photo: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2728 2-1.jpeg
-  bio: 'François Jagut aime bousculer les frontières entre les cuisines. Ce tataki de bœuf en est l’exemple parfait : une technique japonaise, une sauce chimichurri d’Amérique du Sud, des asperges et de la rhubarbe de saison. Simple, généreux, et plein de caractère; comme lui.'
+  bio: 'François Jagut aime bousculer les frontières entre les cuisines. Ce tataki de bœuf en est l’exemple parfait: une technique japonaise, une sauce chimichurri d’Amérique du Sud, des asperges et de la rhubarbe de saison. Simple, généreux, et plein de caractère; comme lui.'
 image: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2725 - Grande.jpeg
 image_credit: '© Les Roses, Luxembourg - Photo: Emilie Gline/Paperjam'
 ingredients:
@@ -39,7 +39,7 @@ ingredients:
   - qty: '1'
     name: Bouquet d'estragon
     note: ''
-  - qty: 4 q.s.
+  - qty: 4 c.s.
     name: Huile d'olive
     note: ''
   - qty: '2'
