@@ -68,7 +68,7 @@ ingredients:
     note: ''
 steps:
   - title: Découpe des légumes.
-    body: Laver les asperges blanches et la rhubarbe. Couper en bâtons d’environ 15 cm. Badigeonner d'huile d'olive.
+    body: Laver les asperges blanches et la rhubarbe. Peler les asperges. Couper en bâtons d’environ 15 cm. Badigeonner d'huile d'olive.
   - title: Cuisson des légumes.
     body: Sur un grill bien chaud, faire griller les asperges environ 3 minutes - elles doivent rester légèrement croquantes. Débarrasser et réserver. Répéter l’opération avec les bâtons de rhubarbe.
   - title: La sauce chimichurri.
