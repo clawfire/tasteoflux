@@ -178,15 +178,6 @@ body {
 }
 
 /* Ingredients */
-.pj-ing-groupe { margin-bottom: 20px; }
-.pj-ing-groupe-titre {
-  font-size: 10px;
-  font-weight: 700;
-  color: #888;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-}
 .pj-ing-ligne {
   display: flex;
   align-items: baseline;
