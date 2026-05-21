@@ -94,18 +94,13 @@ layout: embed
     <div>
       <div class="pj-section-titre">Ingrédients</div>
 
-      {% for group in page.ingredients %}
-      <div class="pj-ing-groupe">
-        <div class="pj-ing-groupe-titre">{{ group.group }}</div>
-        {% for item in group.items %}
-        <div class="pj-ing-ligne">
-          <span class="pj-ing-qte">{{ item.qty }}</span>
-          <span class="pj-ing-nom">{{ item.name }}</span>
-          {% if item.note %}
-          <span class="pj-ing-note">{{ item.note }}</span>
-          {% endif %}
-        </div>
-        {% endfor %}
+      {% for item in page.ingredients %}
+      <div class="pj-ing-ligne">
+        <span class="pj-ing-qte">{{ item.qty }}</span>
+        <span class="pj-ing-nom">{{ item.name }}</span>
+        {% if item.note %}
+        <span class="pj-ing-note">{{ item.note }}</span>
+        {% endif %}
       </div>
       {% endfor %}
     </div>

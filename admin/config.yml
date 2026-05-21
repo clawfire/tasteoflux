@@ -137,26 +137,18 @@ collections:
         label: Ingrédients
         widget: list
         fields:
-          - name: group
-            label: Groupe
+          - name: qty
+            label: Quantité
             widget: string
-            hint: "ex: La viande, Les légumes, Sauce chimichurri"
-          - name: items
-            label: Ingrédients
-            widget: list
-            fields:
-              - name: qty
-                label: Quantité
-                widget: string
-                hint: "ex: 1 kg, q.s., 2"
-              - name: name
-                label: Nom
-                widget: string
-              - name: note
-                label: Note
-                widget: string
-                required: false
-                hint: "ex: zeste + jus"
+            hint: "ex: 1 kg, q.s., 2"
+          - name: name
+            label: Nom
+            widget: string
+          - name: note
+            label: Note
+            widget: string
+            required: false
+            hint: "ex: zeste + jus"
 
       # --- Étapes ---
       - name: steps
