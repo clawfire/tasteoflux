@@ -62,7 +62,7 @@ Sur une PR : seul `validate` tourne, ce qui bloque le merge en cas de schéma ca
 ## Conventions
 
 - **Tout le contenu utilisateur est en français.** Templates, commentaires, messages de commit, copy : tout en français. Le code (identifiants, variables) reste en anglais sauf les classes CSS qui suivent le préfixe `pj-` historique.
-- **Messages de commit en français**, style impératif. Inclure le trailer `Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>` quand Claude contribue.
+- **Messages de commit en français**, style impératif. Ne pas ajouter manuellement de trailer `Co-Authored-By: Claude…` — Claude Code l'injecte automatiquement avec la bonne version du modèle.
 - **PRs en français** également, avec sections **Résumé** et **Test plan**.
 - Le repo a un bot de review **Kilo Code** qui commente automatiquement les PRs. Adresser les warnings et répondre sur chaque thread via `gh api` avec une mention du commit de fix, puis résoudre le thread via GraphQL (`resolveReviewThread`).
 
