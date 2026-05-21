@@ -21,26 +21,51 @@ chef:
 image: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2725 - Grande.jpeg
 image_credit: '© Les Roses, Luxembourg - Photo: Emilie Gline/Paperjam'
 ingredients:
-  - qty: kk
-    name: hhj
+  - qty: 1 kg
+    name: Filet de bœuf ou de rumsteck
     note: ''
-    items:
-      - note: ''
-        name: Filet de bœuf ou de rumsteck
-        qty: 1 kg
-      - note: ''
-        name: Bâtons de rhubarbe
-        qty: '6'
-      - note: ''
-        name: Asperges blanche
-        qty: 1 kg
-      - note: ''
-        name: Bouquet de persil plat
-        qty: '1'
-      - note: ''
-        name: Bouquet de cerfeuil
-        qty: '1'
-    group: À enlever
+  - qty: '6'
+    name: Bâtons de rhubarbe
+    note: ''
+  - qty: 1 kg
+    name: Asperges blanche
+    note: ''
+  - qty: '1'
+    name: Bouquet de persil plat
+    note: ''
+  - qty: '1'
+    name: Bouquet de cerfeuil
+    note: ''
+  - qty: '1'
+    name: Bouquet d'estragon
+    note: ''
+  - qty: 4 q.s.
+    name: Huile d'olive
+    note: ''
+  - qty: '2'
+    name: Gousses d'ail
+    note: ''
+  - qty: '1'
+    name: Échalote
+    note: ''
+  - qty: 1/2 c.s.
+    name: Piment d'Espelette
+    note: ''
+  - qty: '1'
+    name: Citron jaune
+    note: Zeste + jus
+  - qty: '1'
+    name: Orange
+    note: Zeste
+  - qty: '1'
+    name: Sauce soja
+    note: ''
+  - qty: '1'
+    name: Sauce teriyaki
+    note: ''
+  - qty: '1'
+    name: Sel et poivre
+    note: ''
 steps:
   - title: Découpe des légumes.
     body: Laver les asperges blanches et la rhubarbe. Couper en bâtons d’environ 15 cm. Badigeonner d'huile d'olive.
