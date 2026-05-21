@@ -16,62 +16,31 @@ difficulty: '2'
 chef:
   name: François Jagut
   restaurant: Restaurant Les Roses, Luxembourg
-  photo: /assets/images/recipes/tataki-de-boeuf-chimichurri/chef.jpg
+  photo: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2728 2-1.jpeg
   bio: 'François Jagut aime bousculer les frontières entre les cuisines. Ce tataki de bœuf en est l’exemple parfait : une technique japonaise, une sauce chimichurri d’Amérique du Sud, des asperges et de la rhubarbe de saison. Simple, généreux, et plein de caractère; comme lui.'
-image: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2728 2.jpeg
+image: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2725 - Grande.jpeg
 image_credit: '© Les Roses, Luxembourg - Photo: Emilie Gline/Paperjam'
 ingredients:
-  - group: À enlever
+  - qty: kk
+    name: hhj
+    note: ''
     items:
-      - qty: 1 kg
+      - note: ''
         name: Filet de bœuf ou de rumsteck
-        note: ''
-      - qty: '6'
+        qty: 1 kg
+      - note: ''
         name: Bâtons de rhubarbe
-        note: ''
-      - qty: 1 kg
+        qty: '6'
+      - note: ''
         name: Asperges blanche
-        note: ''
-      - qty: '1'
+        qty: 1 kg
+      - note: ''
         name: Bouquet de persil plat
-        note: ''
-      - qty: '1'
+        qty: '1'
+      - note: ''
         name: Bouquet de cerfeuil
-        note: ''
-  - group: À enlever
-    items:
-      - qty: '1'
-        name: Bouquet d'estragon
-        note: ''
-      - qty: 4 q.s.
-        name: Huile d'olive
-        note: ''
-      - qty: '2'
-        name: Gousses d'ail
-        note: ''
-  - group: à enlever
-    items:
-      - qty: '1'
-        name: Échalote
-        note: ''
-      - qty: 1/2 c.s.
-        name: Piment d'Espelette
-        note: ''
-      - qty: '1'
-        name: Citron jaune
-        note: Zeste + jus
-      - qty: '1'
-        name: Orange
-        note: Zeste
-      - qty: '1'
-        name: Sauce soja
-        note: ''
-      - qty: '1'
-        name: Sauce teriyaki
-        note: ''
-      - qty: '1'
-        name: Sel et poivre
-        note: ''
+        qty: '1'
+    group: À enlever
 steps:
   - title: Découpe des légumes.
     body: Laver les asperges blanches et la rhubarbe. Couper en bâtons d’environ 15 cm. Badigeonner d'huile d'olive.
