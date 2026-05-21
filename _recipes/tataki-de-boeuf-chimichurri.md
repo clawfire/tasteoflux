@@ -95,11 +95,5 @@ wine:
   label: Accord mets & vins — par Guillaume, sommelier aux Roses
   name: Pinhas Velas — Blanc portugais sec et vif
   description: Un blanc sec et vif avec un léger côté fumé qui rappelle les notes des asperges grillées. Il dégraisse bien, tient tête au bœuf et à la puissance de la chimichurri. Une belle alternative au Muscat traditionnel des asperges.
-nav:
-  prev_label: Série
-  prev_text: Recettes de chefs
-  next_label: Prochain chef
-  next_text: À venir
-  current: 1
-  total: 5
+nav: null
 ---
