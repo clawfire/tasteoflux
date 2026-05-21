@@ -53,7 +53,7 @@ TIP_SCHEMA = {
 
 RECIPE_SCHEMA = {
     "type": "object",
-    "additionalProperties": True,
+    "additionalProperties": False,
     "required": ["title", "slug", "ingredients", "steps"],
     "properties": {
         "title": {"type": "string", "minLength": 1},
@@ -166,7 +166,7 @@ def main() -> int:
             print(f"[KO] {rel} : frontmatter YAML manquant ou malformé")
             total_errors += 1
             continue
-        errors = sorted(validator.iter_errors(data), key=lambda e: list(e.absolute_path))
+        errors = sorted(validator.iter_errors(data), key=lambda e: [str(p) for p in e.absolute_path])
         if not errors:
             print(f"[OK] {rel}")
             continue
