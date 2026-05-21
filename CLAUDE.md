@@ -10,7 +10,7 @@ Pas de framework, pas de build front : Liquid + CSS + JS vanilla. Le seul plugin
 
 ## Stack et commandes
 
-- **Ruby** : 4.0.2 (cf. `.tool-versions`). À noter : Jekyll 3.9 (verrouillé par le gem `github-pages`) ne tourne pas sur Ruby 4.x à cause du retrait de `csv` du stdlib. Le dev local Jekyll peut donc échouer ; le déploiement réel passe par GitHub Pages côté serveur.
+- **Ruby** : cf. `.tool-versions`. À noter : Jekyll 3.9 (verrouillé par le gem `github-pages`) ne s'installe plus à partir de Ruby 3.4 à cause du retrait de `csv` du stdlib — si ton Ruby local est plus récent que ce que déclare `.tool-versions`, le dev Jekyll local échouera. Le déploiement réel passe par GitHub Pages côté serveur, donc ce n'est pas bloquant pour publier.
 - **Dev local** : `bundle exec jekyll serve` puis `http://localhost:4000/tasteoflux/recettes/<slug>/`
 - **Validation des recettes** : `pip install pyyaml jsonschema && python scripts/validate_recipes.py` — à lancer avant de pousser des changements de schéma. La CI exécute la même commande.
 
