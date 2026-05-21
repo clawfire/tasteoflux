@@ -4,6 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | strip_newlines | escape }}</title>
+  <script>
+    (function () {
+      if (window.self === window.top) return;
+      document.documentElement.classList.add('pj-is-embedded');
+      var lastHeight = 0;
+      function report() {
+        var h = Math.max(
+          document.documentElement.scrollHeight,
+          document.body ? document.body.scrollHeight : 0
+        );
+        if (!h || h === lastHeight) return;
+        lastHeight = h;
+        try {
+          window.parent.postMessage({ type: 'tasteoflux:embed-height', height: h }, '*');
+        } catch (e) { /* parent unreachable, give up silently */ }
+      }
+      function start() {
+        report();
+        if ('ResizeObserver' in window) {
+          new ResizeObserver(report).observe(document.documentElement);
+        }
+        window.addEventListener('load', report);
+        window.addEventListener('resize', report);
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', start);
+      } else {
+        start();
+      }
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -12,5 +43,6 @@
 </head>
 <body>
   {{ content }}
+  <script defer src="{{ '/assets/js/embed-tool.js' | relative_url }}"></script>
 </body>
 </html>
