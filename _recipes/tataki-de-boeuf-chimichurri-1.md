@@ -92,8 +92,8 @@ tips:
   - title: La version plat familial
     body: Pas besoin de dresser à l’assiette. Disposez les asperges et la rhubarbe dans un grand plat, tranchez le bœuf par-dessus et inondez de chimichurri. Chacun se sert.
 wine:
-  label: Accord mets & vins — par Guillaume, sommelier aux Roses
-  name: Pinhas Velas — Blanc portugais sec et vif
+  label: Accord mets & vins par Guillaume Grabisch, sommelier aux Roses
+  name: Pinhas Velas - Blanc portugais sec et vif
   description: Un blanc sec et vif avec un léger côté fumé qui rappelle les notes des asperges grillées. Il dégraisse bien, tient tête au bœuf et à la puissance de la chimichurri. Une belle alternative au muscat traditionnel des asperges.
 nav: null
 ---
