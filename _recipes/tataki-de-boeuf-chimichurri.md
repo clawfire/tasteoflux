@@ -1,14 +1,14 @@
 ---
 title: |-
-  Tataki
-  de bœuf,
+  Beef
+  tataki,
   chimichurri
-slug: tataki-de-boeuf-chimichurri
-kicker: Recette de saison
-subtitle: Asperges et rhubarbe grillées
+slug: beef-tataki-chimichurri
+kicker: Seasonal recipe
+subtitle: Grilled asparagus and rhubarb
 serie:
-  name: Recettes de chefs
-  episode: Épisode 1
+  name: Chef's recipe
+  episode: Episode 1
 time: 30 min
 servings: 6
 season: Printemps
@@ -17,83 +17,83 @@ chef:
   name: François Jagut
   restaurant: Restaurant Les Roses, Luxembourg
   photo: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2728 2-1.jpeg
-  bio: 'François Jagut aime bousculer les frontières entre les cuisines. Ce tataki de bœuf en est l’exemple parfait: une technique japonaise, une sauce chimichurri d’Amérique du Sud, des asperges et de la rhubarbe de saison. Simple, généreux, et plein de caractère; comme lui.'
+  bio: 'François Jagut likes to blur the boundaries between cuisines. This beef tataki is the perfect example: a Japanese technique, a South American chimichurri sauce, seasonal asparagus and rhubarb. Simple, generous, and full of character; just like him.'
 image: assets/images/recipes/tataki-de-boeuf-chimichurri/IMG_2725 - Grande.jpeg
 image_credit: '© Les Roses, Luxembourg - Photo: Emilie Gline/Paperjam'
 ingredients:
   - qty: 1 kg
-    name: Filet de bœuf ou de rumsteck
+    name: Beef tenderloin or rump steak
     note: ''
   - qty: '6'
-    name: Bâtons de rhubarbe
+    name: Rhubarb stalks
     note: ''
   - qty: 1 kg
-    name: Asperges blanches
+    name: White asparagus
     note: ''
   - qty: '1'
-    name: Bouquet de persil plat
+    name: Bunch of flat-leaf parsley
     note: ''
   - qty: '1'
-    name: Bouquet de cerfeuil
+    name: Bunch of chervil
     note: ''
   - qty: '1'
-    name: Bouquet d'estragon
+    name: Bunch of tarragon
     note: ''
-  - qty: 4 c.s.
-    name: Huile d'olive
+  - qty: 4 tbsp
+    name: Olive oil
     note: ''
   - qty: '2'
-    name: Gousses d'ail
+    name: Garlic cloves
     note: ''
   - qty: '1'
-    name: Échalote
+    name: Shallot
     note: ''
-  - qty: 1/2 c.s.
-    name: Piment d'Espelette
+  - qty: 1/2 tbsp
+    name: Espelette pepper
     note: ''
   - qty: '1'
-    name: Citron jaune
-    note: Zeste + jus
+    name: Lemon
+    note: Zest + juice
   - qty: '1'
     name: Orange
-    note: Zeste
+    note: Zest
   - qty: '1'
-    name: Sauce soja
+    name: Soy sauce
     note: ''
   - qty: '1'
-    name: Sauce teriyaki
+    name: Teriyaki sauce
     note: ''
   - qty: '1'
-    name: Sel et poivre
+    name: Salt and pepper
     note: ''
 steps:
-  - title: Découpe des légumes.
-    body: Laver les asperges blanches et la rhubarbe. Peler les asperges. Couper en bâtons d’environ 15 cm. Badigeonner d'huile d'olive.
-  - title: Cuisson des légumes.
-    body: Sur un gril bien chaud, faire griller les asperges environ 3 minutes - elles doivent rester légèrement croquantes. Débarrasser et réserver. Répéter l’opération avec les bâtons de rhubarbe.
-  - title: La sauce chimichurri.
-    body: Hacher finement le persil plat, le cerfeuil, l’estragon, les gousses d’ail et l’échalote. Ajouter les zestes d’orange, les zestes et le jus du citron jaune. Mélanger avec l’huile d’olive puis assaisonner avec sel, poivre et une pointe de piment d’Espelette.
-  - title: Cuisson du bœuf.
-    body: Sur le gril très chaud, griller le morceau de bœuf 30 secondes sur chaque face. Stopper la cuisson puis badigeonner immédiatement avec un mélange de sauce teriyaki, de sauce soja et quelques gouttes de jus de citron jaune.
-  - title: Dressage.
-    body: Tailler des bâtons de 3 cm et les déposer dans l’assiette (en alternant rhubarbe et asperge), ou à plat pour un dressage à partager. Trancher le bœuf en fines lamelles façon tataki puis les disposer sur les légumes. Terminer en nappant généreusement avec la sauce chimichurri.
+  - title: Cutting the vegetables.
+    body: Wash the white asparagus and rhubarb. Peel the asparagus. Cut into sticks of about 15 cm. Brush with olive oil.
+  - title: Cooking the vegetables.
+    body: On a very hot grill, cook the asparagus for about 3 minutes; they should remain slightly crunchy. Remove and set aside. Repeat with the rhubarb stalks.
+  - title: The chimichurri sauce.
+    body: Finely chop the flat-leaf parsley, chervil, tarragon, garlic cloves and shallot. Add the orange zest, lemon zest and lemon juice. Mix with olive oil then season with salt, pepper and a pinch of Espelette pepper.
+  - title: Cooking the beef.
+    body: On a very hot grill, cook the beef for 30 seconds on each side. Remove from the heat and immediately brush with a mixture of teriyaki sauce, soy sauce and a few drops of lemon juice.
+  - title: Plating.
+    body: Cut into 3 cm pieces and arrange in the plate (alternating rhubarb and asparagus), or lay flat for a sharing platter. Slice the beef into thin strips tataki-style and arrange over the vegetables. Finish by generously spooning the chimichurri sauce over the dish.
 quote: null
 tips:
-  - title: Assaisonnez après, pas avant
-    body: Pour la viande rouge, François Jagut assaisonne toujours après la cuisson. Avant cuisson, le sel forme une croûte qui permet aux protéines de coaguler (le sang reste à l’intérieur).
-  - title: Les asperges, al dente!
-    body: Ne cuisez jamais les asperges trop longtemps. Trop cuites, elles perdent dans l’eau de cuisson leur goût, leur couleur et leurs nutriments.
-  - title: Le germe de l’ail, dehors
-    body: Retirez toujours le germe vert au centre de la gousse d’ail - il est très amer et donne un goût désagréable à tout le plat. Même chose pour les échalotes qui commencent à germer.
-  - title: La chimichurri se conserve
-    body: Faites une grande quantité de sauce chimichurri et conservez-la dans un bocal au frigo. Elle tient plusieurs jours et peut aussi s’utiliser à la place du pesto, dans des pâtes ou sur un simple poisson grillé.
-  - title: Pas de gril? Pas de panique
-    body: Pas de gril ni de barbecue à la maison? Une bonne plancha ou simplement une poêle très chaude fonctionnent très bien. L’essentiel, c’est la chaleur intense pour saisir rapidement la viande à l’extérieur.
-  - title: La version plat familial
-    body: Pas besoin de dresser à l’assiette. Disposez les asperges et la rhubarbe dans un grand plat, tranchez le bœuf par-dessus et inondez de chimichurri. Chacun se sert.
+  - title: Season after, not before.
+    body: For red meat, François Jagut always seasons after cooking. If seasoned before, the salt forms a crust that allows the proteins to coagulate (keeping the juices inside).
+  - title: Asparagus, al dente!
+    body: Never overcook asparagus. Overcooked, they lose their flavour, colour and nutrients in the cooking water.
+  - title: Remove the garlic germ.
+    body: Always remove the green germ from the centre of the garlic clove; it is very bitter and gives an unpleasant taste to the whole dish. The same applies to shallots that are starting to sprout.
+  - title: Chimichurri keeps well.
+    body: Make a large batch of chimichurri sauce and store it in a jar in the fridge. It keeps for several days and can also be used instead of pesto, in pasta or over a simple grilled fish.
+  - title: No grill? No panic.
+    body: No grill or barbecue at home? A good plancha or simply a very hot pan work just as well. The key is intense heat to quickly sear the meat on the outside.
+  - title: The sharing platter version.
+    body: No need to plate individually. Arrange the asparagus and rhubarb on a large platter, slice the beef on top and drizzle generously with chimichurri. Help yourselves.
 wine:
-  label: Accord mets & vins — par Guillaume, sommelier aux Roses
-  name: Pinhas Velas — Blanc portugais sec et vif
-  description: Un blanc sec et vif avec un léger côté fumé qui rappelle les notes des asperges grillées. Il dégraisse bien, tient tête au bœuf et à la puissance de la chimichurri. Une belle alternative au muscat traditionnel des asperges.
+  label: Food & wine pairing by Guillaume Grabisch, sommelier at Les Roses.
+  name: Pinhas Velas - Dry and crisp Portuguese white wine.
+  description: A dry and crisp white wine with a slight smoky edge that echoes the notes of grilled asparagus. It cuts through the richness, holds its own against the beef and the boldness of the chimichurri. A great alternative to the traditional Muscat pairing with asparagus.
 nav: null
 ---
