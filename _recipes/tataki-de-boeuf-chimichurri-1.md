@@ -7,7 +7,7 @@ slug: tataki-de-boeuf-chimichurri
 kicker: Recette de saison
 subtitle: Asperges et rhubarbe grillées
 serie:
-  name: Recettes de chefs
+  name: Recette de chef
   episode: Épisode 1
 time: 30 min
 servings: 6
