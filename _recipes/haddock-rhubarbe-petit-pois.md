@@ -7,7 +7,7 @@ serie: null
 time: ''
 servings: 2
 season: Été
-difficulty: ''
+difficulty: '3'
 chef:
   name: Milan Brée
   restaurant: La Cristallerie
