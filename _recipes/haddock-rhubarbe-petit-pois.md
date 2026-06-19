@@ -4,7 +4,7 @@ slug: haddock-rhubarbe-petit-pois
 kicker: Recette de saison I La Cristallerie
 subtitle: ''
 serie: null
-time: ''
+time: 45 min
 servings: 2
 season: Été
 difficulty: '3'
