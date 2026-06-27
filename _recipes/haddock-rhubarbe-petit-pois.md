@@ -13,7 +13,7 @@ chef:
   restaurant: La Cristallerie
   photo: assets/images/recipes/haddock-rhubarbe-petit-pois/719465.jpg
   bio: Originaire de la région de Nantes, Milan Brée a forgé son parcours dans des cuisines étoilées avant de poser ses valises au Luxembourg en 2017, où il officie comme sous-chef à La Villa de Camille et Julien. Après une parenthèse à Reims, il prend la tête de La Cristallerie, le restaurant gastronomique du Relais & Châteaux Le Place d'Armes. Il y propose une cuisine française raffinée aux influences internationales, renouvelée toutes les huit semaines, en collaboration avec le chef exécutif Dominik Ambros.
-image: assets/images/recipes/haddock-rhubarbe-petit-pois/IMG_3816 - Grande.jpeg
+image: assets/images/recipes/haddock-rhubarbe-petit-pois/IMG_3824 - Grande.jpeg
 image_credit: Sebastian Madlener
 ingredients:
   - qty: 140 g
