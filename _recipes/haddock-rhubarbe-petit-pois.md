@@ -67,7 +67,7 @@ steps:
   - title: Mousse de haddock
     body: Faire cuire les parures de haddock (80 g) dans la crème (150 g) à hauteur. Mixer, passer au tamis.
   - title: Finitions
-    body: Sortir le bâton de rhubarbe du frigo, ôter le film, couper en tronçons biseautés. Chalumeau légèrement.
+    body: Sortir le bâton de rhubarbe du frigo, ôter le film, couper en tronçons biseautés.
   - title: Finitions
     body: Réchauffer le caramel de grenadine avec un peu d'eau, napper les tronçons de rhubarbe cuite.
   - title: Mousse de haddock
