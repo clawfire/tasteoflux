@@ -1,7 +1,7 @@
 ---
 title: Smoked haddock, rhubarb with grenadine, peas and verbena
 slug: haddock-rhubarb-peas
-kicker: Recette de saison I La Cristallerie
+kicker: Seasonal recipe I La Cristallerie
 subtitle: ''
 serie: null
 time: 45 min
