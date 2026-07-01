@@ -79,7 +79,7 @@ steps:
 quote: null
 tips:
   - title: Petits pois frais obligatoires
-    body: Les congelés sont déjà «cuits par le froid», ils ressortent marrons et mous. À peine 30 secondes de cuisson pour les frais.
+    body: Les congelés sont déjà «cuits par le froid», ils ressortent marron et mous. À peine 30 secondes de cuisson pour les frais.
   - title: La technique de la mousse
     body: Lait qui mousse, beurre qui fait tenir. Mixer au plongeur en penchant légèrement la casserole, aller vers l'extérieur, ne pas toucher le fond. Aller vite entre la mousse et le dressage.
   - title: Le film alimentaire autour du boudin de rhubarbe
