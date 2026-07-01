@@ -55,7 +55,7 @@ steps:
       Éplucher les 2 bâtons de rhubarbe. Couper le premier en 4 tronçons de 10 cm.
       Pocher les 4 tronçons dans le mélange grenadine-eau (50 g / 100 g). Au bout de 5 minutes, sortir 2 tronçons. Laisser les 2 autres cuire jusqu'à réduction en purée. Garder le jus de cuisson restant.
   - title: La rhubarbe
-    body: Rouler les 2 tronçons pochés dans du film alimentaire pour former un boudin régulier. Réserver au frigo (idéalement une nuit, minimum le temps que ça refroidisse complètement). Ôter le film, tailler en tronçons biseautés. Au moment du dressage, réchauffer le caramel de grenadine avec un peu d'eau et napper.
+    body: Rouler les 2 tronçons pochés dans du film alimentaire pour former un boudin régulier. Réserver au frigo (idéalement une nuit minimum, le temps que ça refroidisse complètement). Ôter le film, tailler en tronçons biseautés. Au moment du dressage, réchauffer le caramel de grenadine avec un peu d'eau et napper.
   - title: La rhubarbe
     body: 'Couper le second bâton cru en deux usages: une partie en brunoise 2×10 mm (à mélanger aux petits pois), une partie en fines lamelles. Réserver les lamelles pour le dressage; elles seront passées au chalumeau au dernier moment.'
   - title: Les petits pois
