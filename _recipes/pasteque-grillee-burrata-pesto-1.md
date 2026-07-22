@@ -1,7 +1,7 @@
 ---
 title: Grilled watermelon, burrata and spinach pesto
-slug: pasteque-grillee-burrata-pesto
-kicker: Recette de saison I Alegria
+slug: grilled-watermelon-burrata-spinach-pesto
+kicker: Seasonal recipe | Alegria
 subtitle: ''
 serie: null
 time: 20 min
@@ -12,64 +12,64 @@ chef:
   name: Carole Lesquer
   restaurant: Alegria
   photo: assets/images/recipes/pasteque-grillee-burrata-pesto/Capture d’écran 2026-07-22 à 14.15.00.png
-  bio: "Carole Lesquer a ouvert Alegria le 23 novembre 2024 et s'apprête à en fêter la deuxième année. Avant de se lancer à son compte, elle pilotait toute la partie food de Flûte Alors!, cartes salée et sucrée comprises. Sa cuisine mise sur le produit de saison et sur des équilibres sans excès de sucre: sa tartelette au citron, l'un des grands succès de la maison, remplace la traditionnelle meringue par une ganache montée au citron, pour le même crémeux avec beaucoup moins de sucre."
+  bio: Carole Lesquer opened Alegria on 23 November 2024 and is now preparing to celebrate its second anniversary. Before launching her own business, she oversaw the entire food offering at Flûte Alors!, developing both the savoury and sweet menus. Her cooking focuses on seasonal produce and balanced flavours without excessive sugar. One of Alegria's signature creations, the lemon tartlet, replaces the traditional meringue with a whipped lemon ganache, delivering the same creamy texture with far less sugar.
 image: assets/images/recipes/pasteque-grillee-burrata-pesto/IMG_4490 - Grande.jpeg
 image_credit: '(Photo: Paperjam)'
 ingredients:
-  - qty: 1 petite
-    name: Pastèque
+  - qty: 1 small
+    name: Watermelon
     note: ''
-  - qty: 2 boules de 250gr
+  - qty: 2 balls (250gr each)
     name: Burrata
     note: ''
-  - qty: 1 grande
-    name: Tomate
+  - qty: 1 big
+    name: Tomatoes
     note: ''
   - qty: '4'
-    name: Tomates séchées
+    name: Sun-dried tomatoes
     note: ''
-  - qty: 1 filet
-    name: Crème balsamique
+  - qty: 1 drizzle
+    name: Balsamic glaze
     note: ''
-  - qty: 1 cs
-    name: Sel, poivre
+  - qty: 1 tbsp
+    name: Salt, pepper
     note: ''
   - qty: '2'
-    name: Grosses poignées d'épinards frais
+    name: Large handfuls of fresh spinach
     note: ''
-  - qty: 1 petite
-    name: Poignée d'amande émondées, idéalement torréfiées
+  - qty: 1 small
+    name: A handful of blanched almonds, ideally toasted
     note: ''
-  - qty: 2  cs
-    name: Huile d'olive
+  - qty: 2  tbsp
+    name: Olive oil
     note: ''
-  - qty: Quelques feuilles
-    name: Basilic
+  - qty: Few leaves
+    name: Basil
     note: ''
 steps:
-  - title: Préparer de la pastèque
-    body: "Couper une tranche d'au moins 3 cm d'épaisseur, puis retirer la croûte. Pour un rendu net, on peut détailler la tranche à l'emporte-pièce, mais un simple couteau fait l'affaire: il suffit de couper en suivant la forme de la pastèque, en ajustant le diamètre selon qu'on la sert en entrée ou en plat."
-  - title: Griller la pastèque
-    body: À la poêle, à feu vif, une dizaine de minutes, jusqu'à ce qu'elle soit bien colorée et légèrement tendre à l'intérieur. Retourner à mi-cuisson pour griller l'autre face. Le four fonctionne aussi, c'est la solution retenue en cuisine pour les grandes quantités, mais la poêle donne le meilleur résultat.
-  - title: Préparer le pesto
-    body: Mixer les épinards frais avec les amandes, l'huile d'olive, le sel et le poivre. Ajouter du parmesan si l'on veut une version plus douce. Un pesto du commerce convient très bien, tout comme un pesto «de restes» monté avec les herbes un peu fatiguées du frigo.
-  - title: Préparer le tartare de tomates
-    body: "Tailler la tomate fraîche et les tomates séchées, en proportions à peu près égales. Assaisonner de sel et de poivre: l'huile d'olive des tomates séchées suffit à donner du goût, avec un supplément d'intensité."
-  - title: Dresser l'assiette
-    body: Déposer deux grosses cuillères à soupe du mélange de tomates au centre de la pastèque grillée, à l'emporte-pièce ou simplement à la cuillère. Ajouter ensuite le pesto. Ce socle sert à caler la burrata, qui aurait sinon tendance à glisser, et évite le contact direct avec la pastèque chaude. Laisser légèrement refroidir la pastèque avant de poser la burrata dessus.
-  - title: Assaisonner
-    body: Saler généreusement, poivrer, déposer un quelques feuilles de basilic et un trait de crème de balsamique.
+  - title: Prepare the watermelon
+    body: Cut a slice at least 3cm thick, then remove the rind. For a neat finish, you can use a pastry cutter to shape the slice, but a knife works just as well. Simply trim it to follow the natural shape of the watermelon, adjusting the size depending on whether you're serving it as a starter or a main course.
+  - title: Grill the watermelon
+    body: Heat a frying pan over a high heat and grill the watermelon for around 10 minutes, until well coloured on the outside and slightly tender in the centre. Turn it halfway through cooking to grill the other side. You can also cook it in the oven, which is the preferred option for larger batches, but a frying pan gives the best results.
+  - title: Prepare the pesto
+    body: Blend the fresh spinach with the almonds, olive oil, salt and pepper until smooth. Add Parmesan if you prefer a milder flavour. A good-quality shop-bought pesto works perfectly well too, as does a "leftover" pesto made with slightly tired herbs from the fridge.
+  - title: Prepare the tomato tartare
+    body: Dice the fresh and sun-dried tomatoes in roughly equal quantities. Season with salt and pepper. The oil from the sun-dried tomatoes provides all the richness and depth of flavour you'll need.
+  - title: Assemble the dish
+    body: Spoon two generous tablespoons of the tomato mixture onto the centre of the grilled watermelon, using a pastry ring for a neat finish or simply a spoon. Add the pesto, then place the burrata on top. The tomato mixture and pesto create a stable base to keep the burrata in place and prevent it from coming into direct contact with the hot watermelon. Allow the watermelon to cool slightly before adding the burrata.
+  - title: Season
+    body: Season generously with salt and freshly ground black pepper, then finish with a few basil leaves and a drizzle of balsamic glaze.
 quote: null
 tips:
-  - title: Feu vif, sinon rien
-    body: "La pastèque doit être bien colorée à l'extérieur et rester légèrement tendre à cœur. Une fois grillée, elle prend une texture qui rappelle presque la viande: un effet trompe-l'œil assumé, qui change de la salade de pastèque froide."
-  - title: Le pesto, c'est la recette anti-gaspi par excellence
-    body: Plus de basilic? On monte le pesto avec toutes les herbes un peu fanées ou fatiguées du frigo. Et un pesto du commerce fait parfaitement l'affaire. Côté fruits secs, l'amande émondée et torréfiée est l'idéal, mais la pistache ou le pignon de pin conviennent aussi.
+  - title: High heat is essential
+    body: The watermelon should be well browned on the outside while remaining slightly tender in the centre. Once grilled, it develops an almost meat-like texture – a deliberate trompe-l'œil effect that offers a refreshing alternative to the usual chilled watermelon salad.
+  - title: Pesto is the ultimate zero-waste recipe
+    body: No basil left? Pesto is the perfect way to use up slightly wilted herbs lurking in the fridge, and a good-quality shop-bought pesto works just as well. Blanched, toasted almonds are ideal, but pistachios or pine nuts make excellent alternatives too.
 wine:
-  label: Accord mets & vins
+  label: Food & wine pairing
   name: L'Ombre Fraîche (2024)
   description: |-
-    Domaine d'Escausses, AOC Gaillac. Cépages: 65% Muscadelle, 20% Sauvignon, 15% Loin de l'oeil.
-    Vin blanc sec avec des notes de bouquet d'agrumes.
+    Domaine d'Escausses, AOC Gaillac. Grape varieties: 65% Muscadelle, 20% Sauvignon, 15% Loin de l'oeil.
+    A dry white wine with citrus aromas.
 nav: null
 ---
