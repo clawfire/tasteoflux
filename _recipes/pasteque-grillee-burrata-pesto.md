@@ -43,6 +43,9 @@ ingredients:
   - qty: 2  cs
     name: Huile d'olive
     note: ''
+  - qty: Quelques feuilles
+    name: Basilic
+    note: ''
 steps:
   - title: Préparer de la pastèque
     body: "Couper une tranche d'au moins 3 cm d'épaisseur, puis retirer la croûte. Pour un rendu net, on peut détailler la tranche à l'emporte-pièce, mais un simple couteau fait l'affaire: il suffit de couper en suivant la forme de la pastèque, en ajustant le diamètre selon qu'on la sert en entrée ou en plat."
@@ -55,7 +58,7 @@ steps:
   - title: Dresser l'assiette
     body: Déposer deux grosses cuillères à soupe du mélange de tomates au centre de la pastèque grillée, à l'emporte-pièce ou simplement à la cuillère. Ajouter ensuite le pesto. Ce socle sert à caler la burrata, qui aurait sinon tendance à glisser, et évite le contact direct avec la pastèque chaude. Laisser légèrement refroidir la pastèque avant de poser la burrata dessus.
   - title: Assaisonner
-    body: Saler généreusement, poivrer et un trait de crème de balsamique.
+    body: Saler généreusement, poivrer, déposer un quelques feuilles de basilic et un trait de crème de balsamique.
 quote: null
 tips:
   - title: Feu vif, sinon rien
