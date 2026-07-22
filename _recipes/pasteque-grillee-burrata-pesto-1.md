@@ -52,7 +52,7 @@ steps:
   - title: Grill the watermelon
     body: Heat a frying pan over a high heat and grill the watermelon for around 10 minutes, until well coloured on the outside and slightly tender in the centre. Turn it halfway through cooking to grill the other side. You can also cook it in the oven, which is the preferred option for larger batches, but a frying pan gives the best results.
   - title: Prepare the pesto
-    body: Blend the fresh spinach with the almonds, olive oil, salt and pepper until smooth. Add Parmesan if you prefer a milder flavour. A good-quality shop-bought pesto works perfectly well too, as does a "leftover" pesto made with slightly tired herbs from the fridge.
+    body: Blend the fresh spinach with the almonds, olive oil, salt and pepper until smooth. Add Parmesan if you prefer a milder flavour. A good-quality shop-bought pesto works perfectly well too, as does a «leftover» pesto made with slightly tired herbs from the fridge.
   - title: Prepare the tomato tartare
     body: Dice the fresh and sun-dried tomatoes in roughly equal quantities. Season with salt and pepper. The oil from the sun-dried tomatoes provides all the richness and depth of flavour you'll need.
   - title: Assemble the dish
