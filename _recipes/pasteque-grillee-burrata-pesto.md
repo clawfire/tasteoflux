@@ -53,9 +53,9 @@ steps:
   - title: Préparer le tartare de tomates
     body: "Tailler la tomate fraîche et les tomates séchées, en proportions à peu près égales. Assaisonner de sel et de poivre: l'huile d'olive des tomates séchées suffit à donner du goût, avec un supplément d'intensité."
   - title: Dresser l'assiette
-    body: Déposer deux grosses cuillères à soupe du mélange de tomates au centre de la pastèque grillée, à l'emporte-pièce ou simplement à la cuillère. Ce socle sert à caler la burrata, qui aurait sinon tendance à glisser, et évite le contact direct avec la pastèque chaude. Laisser légèrement refroidir la pastèque avant de poser la burrata dessus.
+    body: Déposer deux grosses cuillères à soupe du mélange de tomates au centre de la pastèque grillée, à l'emporte-pièce ou simplement à la cuillère. Ajouter ensuite le pesto. Ce socle sert à caler la burrata, qui aurait sinon tendance à glisser, et évite le contact direct avec la pastèque chaude. Laisser légèrement refroidir la pastèque avant de poser la burrata dessus.
   - title: Assaisonner
-    body: Saler généreusement, poivrer, ajouter le pesto et un trait de crème de balsamique.
+    body: Saler généreusement, poivrer et un trait de crème de balsamique.
 quote: null
 tips:
   - title: Feu vif, sinon rien
