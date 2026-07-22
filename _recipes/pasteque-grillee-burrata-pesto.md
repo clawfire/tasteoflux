@@ -19,7 +19,7 @@ ingredients:
   - qty: 1 petite
     name: Pastèque
     note: ''
-  - qty: 250 gr
+  - qty: 2 boules de 250gr
     name: Burrata
     note: ''
   - qty: 1 grande
