@@ -62,6 +62,11 @@ tips:
     body: "La pastèque doit être bien colorée à l'extérieur et rester légèrement tendre à cœur. Une fois grillée, elle prend une texture qui rappelle presque la viande: un effet trompe-l'œil assumé, qui change de la salade de pastèque froide."
   - title: Le pesto, c'est la recette anti-gaspi par excellence
     body: Plus de basilic? On monte le pesto avec toutes les herbes un peu fanées ou fatiguées du frigo. Et un pesto du commerce fait parfaitement l'affaire. Côté fruits secs, l'amande émondée et torréfiée est l'idéal, mais la pistache ou le pignon de pin conviennent aussi.
-wine: null
+wine:
+  label: Accord mets & vins
+  name: L'Ombre Fraîche (2024)
+  description: |-
+    Domaine d'Escausses, AOC Gaillac. Cépages: 65% Muscadelle, 20% Sauvignon, 15% Loin de l'oeil.
+    Vin blanc sec avec des notes de bouquet d'agrumes.
 nav: null
 ---
